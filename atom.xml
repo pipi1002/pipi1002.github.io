@@ -3,11 +3,11 @@
   <title>Pipi的博客</title>
   
   <subtitle>pi的小站</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://love.pipi1002.fun/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://love.pipi1002.fun/"/>
   <updated>2022-11-18T03:18:15.311Z</updated>
-  <id>http://example.com/</id>
+  <id>https://love.pipi1002.fun/</id>
   
   <author>
     <name>Pipi</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>EXAM-NOTE</title>
-    <link href="http://example.com/2022/11/17/EXAM-NOTE/"/>
-    <id>http://example.com/2022/11/17/EXAM-NOTE/</id>
+    <link href="https://love.pipi1002.fun/2022/11/17/EXAM-NOTE/"/>
+    <id>https://love.pipi1002.fun/2022/11/17/EXAM-NOTE/</id>
     <published>2022-11-17T08:02:22.000Z</published>
     <updated>2022-11-18T03:18:15.311Z</updated>
     
@@ -31,8 +31,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2022/11/16/hello-world/"/>
-    <id>http://example.com/2022/11/16/hello-world/</id>
+    <link href="https://love.pipi1002.fun/2022/11/16/hello-world/"/>
+    <id>https://love.pipi1002.fun/2022/11/16/hello-world/</id>
     <published>2022-11-16T14:07:42.785Z</published>
     <updated>2022-11-18T03:18:19.900Z</updated>
     
@@ -51,8 +51,8 @@
   
   <entry>
     <title>HTML</title>
-    <link href="http://example.com/2022/11/16/HTML/"/>
-    <id>http://example.com/2022/11/16/HTML/</id>
+    <link href="https://love.pipi1002.fun/2022/11/16/HTML/"/>
+    <id>https://love.pipi1002.fun/2022/11/16/HTML/</id>
     <published>2022-11-16T13:26:33.000Z</published>
     <updated>2022-11-18T03:18:22.469Z</updated>
     
@@ -72,8 +72,8 @@
   
   <entry>
     <title>页面homework</title>
-    <link href="http://example.com/2022/11/16/%E9%A1%B5%E9%9D%A2homework/"/>
-    <id>http://example.com/2022/11/16/%E9%A1%B5%E9%9D%A2homework/</id>
+    <link href="https://love.pipi1002.fun/2022/11/16/%E9%A1%B5%E9%9D%A2homework/"/>
+    <id>https://love.pipi1002.fun/2022/11/16/%E9%A1%B5%E9%9D%A2homework/</id>
     <published>2022-11-16T13:26:19.000Z</published>
     <updated>2022-11-19T06:45:05.681Z</updated>
     
@@ -92,8 +92,8 @@
   
   <entry>
     <title>CSS样式</title>
-    <link href="http://example.com/2022/11/16/CSS%E6%A0%B7%E5%BC%8F/"/>
-    <id>http://example.com/2022/11/16/CSS%E6%A0%B7%E5%BC%8F/</id>
+    <link href="https://love.pipi1002.fun/2022/11/16/CSS%E6%A0%B7%E5%BC%8F/"/>
+    <id>https://love.pipi1002.fun/2022/11/16/CSS%E6%A0%B7%E5%BC%8F/</id>
     <published>2022-11-16T13:25:29.000Z</published>
     <updated>2022-11-19T05:56:17.448Z</updated>
     
@@ -114,8 +114,8 @@
   
   <entry>
     <title>C-CProject</title>
-    <link href="http://example.com/2022/11/16/C-CProject/"/>
-    <id>http://example.com/2022/11/16/C-CProject/</id>
+    <link href="https://love.pipi1002.fun/2022/11/16/C-CProject/"/>
+    <id>https://love.pipi1002.fun/2022/11/16/C-CProject/</id>
     <published>2022-11-16T13:25:12.000Z</published>
     <updated>2022-11-19T12:57:09.495Z</updated>
     
@@ -134,8 +134,8 @@
   
   <entry>
     <title>C-Ctext</title>
-    <link href="http://example.com/2022/11/16/C-Ctext/"/>
-    <id>http://example.com/2022/11/16/C-Ctext/</id>
+    <link href="https://love.pipi1002.fun/2022/11/16/C-Ctext/"/>
+    <id>https://love.pipi1002.fun/2022/11/16/C-Ctext/</id>
     <published>2022-11-16T13:25:12.000Z</published>
     <updated>2022-11-19T02:54:00.658Z</updated>
     
