@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://love.pipi1002.fun/2022/11/16/C-Ctext/</loc>
+    
+    <lastmod>2022-11-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://love.pipi1002.fun/2022/11/16/HTML/</loc>
     
     <lastmod>2022-11-20</lastmod>
@@ -38,15 +47,6 @@
   </url>
   
   <url>
-    <loc>https://love.pipi1002.fun/2022/11/16/C-Ctext/</loc>
-    
-    <lastmod>2022-11-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://love.pipi1002.fun/2022/11/16/C-C/</loc>
     
     <lastmod>2022-11-20</lastmod>
@@ -67,7 +67,7 @@
 
   <url>
     <loc>https://love.pipi1002.fun/</loc>
-    <lastmod>2022-11-20</lastmod>
+    <lastmod>2022-11-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
