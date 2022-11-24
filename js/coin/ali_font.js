@@ -1,1 +1,0 @@
-iconfont.js,iconfont.json,iconfont.ttf,iconfont.woff,iconfont.woff2;
