@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://love.pipi1002.fun/2022/11/20/hello-world/</loc>
+    
+    <lastmod>2022-11-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://love.pipi1002.fun/2022/11/16/HTML/</loc>
+    
+    <lastmod>2022-11-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://love.pipi1002.fun/2022/11/16/C-Ctext/</loc>
     
     <lastmod>2022-11-28</lastmod>
@@ -14,24 +32,6 @@
     <loc>https://love.pipi1002.fun/manifest.json</loc>
     
     <lastmod>2022-11-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://love.pipi1002.fun/2022/11/16/HTML/</loc>
-    
-    <lastmod>2022-11-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://love.pipi1002.fun/2022/11/20/hello-world/</loc>
-    
-    <lastmod>2022-11-20</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
