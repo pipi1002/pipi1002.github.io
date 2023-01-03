@@ -515,7 +515,7 @@
   color: #f2f2f2;
 }
 
-@import "//at.alicdn.com/t/c/font_3712707_hc2ma1g0ge.js";
+@import "//at.alicdn.com/t/c/font_3712707_yswc54w1yio.js";
 
 svg.social_icon {
   width: 1.20em;
@@ -690,5 +690,41 @@ body::-webkit-scrollbar {
 
   ::-webkit-scrollbar-corner {
       background-color: transparent
+  }
+}
+
+/* 信息卡片彩带 */
+.author_top:hover {
+  background: url(https://tuchuang.voooe.cn/images/2023/01/02/snow.gif);
+  background-size: cover;
+}
+
+/* 头像呼吸灯 */
+[data-theme="light"] .avatar-img {
+  animation: huxi_light 4s ease-in-out infinite;
+}
+[data-theme="dark"] .avatar-img {
+  animation: huxi_dark 4s ease-in-out infinite;
+}
+@keyframes huxi_light {
+  0% {
+    box-shadow: 0px 0px 1px 1px #e9f5fa;
+  }
+  50% {
+    box-shadow: 0px 0px 5px 5px #e9f5fa;
+  }
+  100% {
+    box-shadow: 0px 0px 1px 1px #e9f5fa;
+  }
+}
+@keyframes huxi_dark {
+  0% {
+    box-shadow: 0px 0px 1px 1px #39c5bb;
+  }
+  50% {
+    box-shadow: 0px 0px 5px 5px #39c5bb;
+  }
+  100% {
+    box-shadow: 0px 0px 1px 1px #39c5bb;
   }
 }
