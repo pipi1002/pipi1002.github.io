@@ -518,11 +518,11 @@
   color: #f2f2f2;
 }
 
-@import "//at.alicdn.com/t/c/font_3712707_6d0wx6brlts.js";
+@import "//at.alicdn.com/t/c/font_3712707_en1h95352so.js";
 
-svg.icon {
-  width: 1.28em;
-  height: 1.28em;
+svg.social_icon {
+  width: 1.20em;
+  height: 1.20em;
   vertical-align: -0.15em;
   fill: currentColor;
   overflow: hidden;
