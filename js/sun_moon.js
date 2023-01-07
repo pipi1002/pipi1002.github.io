@@ -23,7 +23,7 @@ function switchNightMode() {
         activateDarkMode()
         saveToLocal.set('theme', 'dark', 2)
         // GLOBAL_CONFIG.Snackbar !== undefined && btf.snackbarShow(GLOBAL_CONFIG.Snackbar.day_to_night)
-        document.getElementById('modeicon').setAttribute('xlink:href', '#icon-sun')
+        document.getElementById('modeicon').setAttribute('xlink:href', '#icon-046-sun')
         // 延时弹窗提醒
         setTimeout(() => {
             new Vue({
@@ -51,7 +51,7 @@ function switchNightMode() {
         
         activateLightMode()
         saveToLocal.set('theme', 'light', 2)
-        document.querySelector('body').classList.add('DarkMode'), document.getElementById('modeicon').setAttribute('xlink:href', '#icon-moon')
+        document.querySelector('body').classList.add('DarkMode'), document.getElementById('modeicon').setAttribute('xlink:href', '#icon-weather-color_moon-stars')
         setTimeout(() => {
             new Vue({
                 data: function () {
