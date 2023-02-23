@@ -6,7 +6,7 @@
   <link href="https://love.pipi1002.fun/atom.xml" rel="self"/>
   
   <link href="https://love.pipi1002.fun/"/>
-  <updated>2023-02-23T09:46:58.735Z</updated>
+  <updated>2023-02-23T09:51:13.441Z</updated>
   <id>https://love.pipi1002.fun/</id>
   
   <author>
@@ -21,14 +21,14 @@
     <link href="https://love.pipi1002.fun/2023/02/23/EXAM-NOTE-C++/"/>
     <id>https://love.pipi1002.fun/2023/02/23/EXAM-NOTE-C++/</id>
     <published>2023-02-23T09:40:52.000Z</published>
-    <updated>2023-02-23T09:46:58.735Z</updated>
+    <updated>2023-02-23T09:51:13.441Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="h"><a href="#h" class="headerlink" title="h"></a>h</h2><h2 id="函数分文件编写"><a href="#函数分文件编写" class="headerlink" title="函数分文件编写"></a>函数分文件编写</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">创建.h后缀名头文件</span><br><span class="line">创建.cpp后缀名源文件</span><br><span class="line">在头文件中写函数的声明</span><br><span class="line">在源文件中写函数的定义</span><br></pre></td></tr></table></figure><h5 id="指针在32位机器下-×86-通通占4个字节，不管是什么数据类型"><a href="#指针在32位机器下-×86-通通占4个字节，不管是什么数据类型" class="headerlink" title="指针在32位机器下(×86)通通占4个字节，不管是什么数据类型"></a>指针在32位机器下(×86)通通占4个字节，不管是什么数据类型</h5><h5 id="指针在64位机器下通通占8个字节，不管是什么数据类型"><a href="#指针在64位机器下通通占8个字节，不管是什么数据类型" class="headerlink" title="指针在64位机器下通通占8个字节，不管是什么数据类型"></a>指针在64位机器下通通占8个字节，不管是什么数据类型</h5>]]></content>
+    <content type="html"><![CDATA[<h2 id=""><a href="#" class="headerlink" title=" "></a> </h2><h2 id="函数分文件编写"><a href="#函数分文件编写" class="headerlink" title="函数分文件编写"></a>函数分文件编写</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">创建.h后缀名头文件</span><br><span class="line">创建.cpp后缀名源文件</span><br><span class="line">在头文件中写函数的声明</span><br><span class="line">在源文件中写函数的定义</span><br></pre></td></tr></table></figure><h5 id="指针在32位机器下-×86-通通占4个字节，不管是什么数据类型"><a href="#指针在32位机器下-×86-通通占4个字节，不管是什么数据类型" class="headerlink" title="指针在32位机器下(×86)通通占4个字节，不管是什么数据类型"></a>指针在32位机器下(×86)通通占4个字节，不管是什么数据类型</h5><h5 id="指针在64位机器下通通占8个字节，不管是什么数据类型"><a href="#指针在64位机器下通通占8个字节，不管是什么数据类型" class="headerlink" title="指针在64位机器下通通占8个字节，不管是什么数据类型"></a>指针在64位机器下通通占8个字节，不管是什么数据类型</h5><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="comment">//指针所在内存空间</span></span><br><span class="line">    <span class="type">int</span> a=<span class="number">10</span>;</span><br><span class="line">    <span class="type">int</span> *p=&amp;a;</span><br><span class="line">    cout&lt;&lt;<span class="string">&quot;sizeof(int *)=&quot;</span><span class="built_in">sizeof</span>(<span class="type">int</span> *)&lt;&lt;endl;  <span class="comment">//4</span></span><br><span class="line">    cout&lt;&lt;<span class="string">&quot;sizeof(float *)=&quot;</span><span class="built_in">sizeof</span>(<span class="type">float</span> *)&lt;&lt;endl;  <span class="comment">//4</span></span><br><span class="line">    cout&lt;&lt;<span class="string">&quot;sizeof(double *)=&quot;</span><span class="built_in">sizeof</span>(<span class="type">double</span> *)&lt;&lt;endl; <span class="comment">//4</span></span><br><span class="line">    cout&lt;&lt;<span class="string">&quot;sizeof(char *)=&quot;</span><span class="built_in">sizeof</span>(<span class="type">char</span> *)&lt;&lt;endl;  <span class="comment">//4</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
     
     
       
       
-    <summary type="html">&lt;h2 id=&quot;h&quot;&gt;&lt;a href=&quot;#h&quot; class=&quot;headerlink&quot; title=&quot;h&quot;&gt;&lt;/a&gt;h&lt;/h2&gt;&lt;h2 id=&quot;函数分文件编写&quot;&gt;&lt;a href=&quot;#函数分文件编写&quot; class=&quot;headerlink&quot; title=&quot;函数分文件编写&quot;&gt;&lt;/a&gt;函数</summary>
+    <summary type="html">&lt;h2 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot; &quot;&gt;&lt;/a&gt; &lt;/h2&gt;&lt;h2 id=&quot;函数分文件编写&quot;&gt;&lt;a href=&quot;#函数分文件编写&quot; class=&quot;headerlink&quot; title=&quot;函数分文件编写&quot;&gt;&lt;/a&gt;函数分文</summary>
       
     
     
