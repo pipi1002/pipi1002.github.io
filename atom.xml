@@ -6,7 +6,7 @@
   <link href="https://love.pipi1002.fun/atom.xml" rel="self"/>
   
   <link href="https://love.pipi1002.fun/"/>
-  <updated>2023-02-23T09:06:41.757Z</updated>
+  <updated>2023-02-23T09:08:50.327Z</updated>
   <id>https://love.pipi1002.fun/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>C++基础</title>
+    <link href="https://love.pipi1002.fun/2023/02/23/C++%E5%9F%BA%E7%A1%80/"/>
+    <id>https://love.pipi1002.fun/2023/02/23/C++%E5%9F%BA%E7%A1%80/</id>
+    <published>2023-02-23T09:08:16.000Z</published>
+    <updated>2023-02-23T09:08:50.327Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="函数的分文件编写"><a href="#函数的分文件编写" class="headerlink" title="函数的分文件编写"></a>函数的分文件编写</h2><ul><li>1.创建.h后缀名的头文件</li><li>2.创建.cpp后缀名的源文件</li><li>3.在头文件中写函数的声明</li><li>4.在源文件中写函数的定义</li></ul><h6 id="指针在32位机器下-×86-通通占4个字节，不管是什么数据类型，在64位机器下占8个字节"><a href="#指针在32位机器下-×86-通通占4个字节，不管是什么数据类型，在64位机器下占8个字节" class="headerlink" title="指针在32位机器下(×86)通通占4个字节，不管是什么数据类型，在64位机器下占8个字节"></a>指针在32位机器下(×86)通通占4个字节，不管是什么数据类型，在64位机器下占8个字节</h6><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="comment">//指针所占内存空间</span></span><br><span class="line">    <span class="type">int</span> a=<span class="number">10</span>;</span><br><span class="line">    <span class="type">int</span> *p=&amp;a;</span><br><span class="line">    cout&lt;&lt;<span class="string">&quot;sizeof(int *)=&quot;</span>&lt;&lt;<span class="built_in">sizeof</span>(<span class="type">int</span> *)&lt;&lt;endl;  <span class="comment">//4</span></span><br><span class="line">    cout&lt;&lt;<span class="string">&quot;sizeof(float *)=&quot;</span>&lt;&lt;<span class="built_in">sizeof</span>(<span class="type">float</span> *)&lt;&lt;endl;  <span class="comment">//4</span></span><br><span class="line">    cout&lt;&lt;<span class="string">&quot;sizeof(double *)=&quot;</span>&lt;&lt;<span class="built_in">sizeof</span>(<span class="type">double</span> *)&lt;&lt;endl; <span class="comment">//4 </span></span><br><span class="line">    cout&lt;&lt;<span class="string">&quot;sizeof(char *)=&quot;</span>&lt;&lt;<span class="built_in">sizeof</span>(<span class="type">char</span> *)&lt;&lt;endl;  <span class="comment">//4</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="空指针和野指针"><a href="#空指针和野指针" class="headerlink" title="空指针和野指针"></a>空指针和野指针</h2><p><code>空指针</code>：指针变量指向内存中编号为0的空间</p><p><code>用途</code>:初始化指针变量</p><p><code>注意</code>:空指针指向的内存是不可以访问的（因为0~255的内存是系统占用的，如果访问就会出错）</p><p><code>野指针</code>:指针变量指向非法的内存空间</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//空指针用于给指针变量初始化</span></span><br><span class="line"><span class="type">int</span> *p=<span class="literal">NULL</span>;</span><br><span class="line"><span class="comment">//*p=100;  如果这样就会冲突</span></span><br><span class="line"> </span><br><span class="line"><span class="comment">//野指针(读取访问权限冲突)</span></span><br><span class="line"><span class="type">int</span> *p=(<span class="type">int</span> *)<span class="number">0x1100</span>;</span><br></pre></td></tr></table></figure><p><code>总结</code>:空指针和野指针都不是我们申请访问的空间，因此不要访问</p><h2 id="const修饰指针"><a href="#const修饰指针" class="headerlink" title="const修饰指针"></a>const修饰指针</h2><p>1，const修饰指针———<code>常量指针</code>   指针指向可以改，指针指向的值不可以改</p><p>2，const修饰常量———<code>指针常量</code>   指针的指向不可以改，指针指向的值可以改</p><p>3，const既可以修饰指针，又修饰常量   指针的指向和指针指向的值都不可以改变</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//常量指针</span></span><br><span class="line"><span class="type">const</span> <span class="type">int</span> *p=$a;</span><br><span class="line">*p=<span class="number">20</span>;<span class="comment">//错误</span></span><br><span class="line">p=&amp;b;<span class="comment">//正确</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//指针常量</span></span><br><span class="line"><span class="type">int</span> * <span class="type">const</span> p=&amp;a；</span><br><span class="line">*p=<span class="number">20</span>；<span class="comment">//正确</span></span><br><span class="line">p=&amp;b;<span class="comment">//错误</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//const既修饰指针又修饰常量</span></span><br><span class="line"><span class="type">const</span> <span class="type">int</span> * <span class="type">const</span> p=&amp;a;</span><br><span class="line">*p=<span class="number">20</span>;<span class="comment">//错误</span></span><br><span class="line">p=&amp;b;<span class="comment">//错误</span></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;函数的分文件编写&quot;&gt;&lt;a href=&quot;#函数的分文件编写&quot; class=&quot;headerlink&quot; title=&quot;函数的分文件编写&quot;&gt;&lt;/a&gt;函数的分文件编写&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;1.创建.h后缀名的头文件&lt;/li&gt;
+&lt;li&gt;2.创建.cpp后缀名的源文件&lt;/</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>C++基础内容</title>
