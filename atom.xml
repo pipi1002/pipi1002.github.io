@@ -3,11 +3,11 @@
   <title>Pipi`Blog🍉🍉</title>
   
   <subtitle>欢迎大家的访问哦❤</subtitle>
-  <link href="https://work.pipi1002.fun/atom.xml" rel="self"/>
+  <link href="https://pipi1002.github.io/atom.xml" rel="self"/>
   
-  <link href="https://work.pipi1002.fun/"/>
+  <link href="https://pipi1002.github.io/"/>
   <updated>2023-10-13T09:26:19.271Z</updated>
-  <id>https://work.pipi1002.fun/</id>
+  <id>https://pipi1002.github.io/</id>
   
   <author>
     <name>Pipi</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>DataStructure</title>
-    <link href="https://work.pipi1002.fun/2023/09/25/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
-    <id>https://work.pipi1002.fun/2023/09/25/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</id>
+    <link href="https://pipi1002.github.io/2023/09/25/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    <id>https://pipi1002.github.io/2023/09/25/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</id>
     <published>2023-09-25T11:00:56.000Z</published>
     <updated>2023-10-13T09:26:19.271Z</updated>
     
@@ -33,15 +33,15 @@
     
     
     
-    <category term="C语言基础笔记" scheme="https://work.pipi1002.fun/categories/C%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0/"/>
+    <category term="C语言基础笔记" scheme="https://pipi1002.github.io/categories/C%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0/"/>
     
     
   </entry>
   
   <entry>
     <title>MatlabClass</title>
-    <link href="https://work.pipi1002.fun/2023/07/17/MatlabClass/"/>
-    <id>https://work.pipi1002.fun/2023/07/17/MatlabClass/</id>
+    <link href="https://pipi1002.github.io/2023/07/17/MatlabClass/"/>
+    <id>https://pipi1002.github.io/2023/07/17/MatlabClass/</id>
     <published>2023-07-17T06:33:43.000Z</published>
     <updated>2023-09-08T02:29:29.644Z</updated>
     
@@ -60,8 +60,8 @@
   
   <entry>
     <title>C++ mistakes</title>
-    <link href="https://work.pipi1002.fun/2023/05/04/C++mistakes/"/>
-    <id>https://work.pipi1002.fun/2023/05/04/C++mistakes/</id>
+    <link href="https://pipi1002.github.io/2023/05/04/C++mistakes/"/>
+    <id>https://pipi1002.github.io/2023/05/04/C++mistakes/</id>
     <published>2023-05-04T04:41:44.000Z</published>
     <updated>2023-06-26T08:17:34.092Z</updated>
     
@@ -75,15 +75,15 @@
     
     
     
-    <category term="C语言基础笔记" scheme="https://work.pipi1002.fun/categories/C%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0/"/>
+    <category term="C语言基础笔记" scheme="https://pipi1002.github.io/categories/C%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0/"/>
     
     
   </entry>
   
   <entry>
     <title>EXAM-NOTE-C++</title>
-    <link href="https://work.pipi1002.fun/2023/02/23/EXAM-NOTE-C++/"/>
-    <id>https://work.pipi1002.fun/2023/02/23/EXAM-NOTE-C++/</id>
+    <link href="https://pipi1002.github.io/2023/02/23/EXAM-NOTE-C++/"/>
+    <id>https://pipi1002.github.io/2023/02/23/EXAM-NOTE-C++/</id>
     <published>2023-02-23T09:40:52.000Z</published>
     <updated>2023-05-12T08:55:47.271Z</updated>
     
@@ -97,15 +97,15 @@
     
     
     
-    <category term="C语言基础笔记" scheme="https://work.pipi1002.fun/categories/C%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0/"/>
+    <category term="C语言基础笔记" scheme="https://pipi1002.github.io/categories/C%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0/"/>
     
     
   </entry>
   
   <entry>
     <title>C++Project</title>
-    <link href="https://work.pipi1002.fun/2023/02/23/C++Project/"/>
-    <id>https://work.pipi1002.fun/2023/02/23/C++Project/</id>
+    <link href="https://pipi1002.github.io/2023/02/23/C++Project/"/>
+    <id>https://pipi1002.github.io/2023/02/23/C++Project/</id>
     <published>2023-02-23T02:38:33.000Z</published>
     <updated>2023-06-27T02:36:58.618Z</updated>
     
@@ -119,15 +119,15 @@
     
     
     
-    <category term="C语言基础笔记" scheme="https://work.pipi1002.fun/categories/C%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0/"/>
+    <category term="C语言基础笔记" scheme="https://pipi1002.github.io/categories/C%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0/"/>
     
     
   </entry>
   
   <entry>
     <title>文章</title>
-    <link href="https://work.pipi1002.fun/2023/01/02/%E6%96%87%E7%AB%A0/"/>
-    <id>https://work.pipi1002.fun/2023/01/02/%E6%96%87%E7%AB%A0/</id>
+    <link href="https://pipi1002.github.io/2023/01/02/%E6%96%87%E7%AB%A0/"/>
+    <id>https://pipi1002.github.io/2023/01/02/%E6%96%87%E7%AB%A0/</id>
     <published>2023-01-02T04:38:42.000Z</published>
     <updated>2023-01-02T05:04:35.170Z</updated>
     
@@ -142,15 +142,15 @@
     
     
     
-    <category term="随想" scheme="https://work.pipi1002.fun/categories/%E9%9A%8F%E6%83%B3/"/>
+    <category term="随想" scheme="https://pipi1002.github.io/categories/%E9%9A%8F%E6%83%B3/"/>
     
     
   </entry>
   
   <entry>
     <title>EXAM-NOTE-C语言</title>
-    <link href="https://work.pipi1002.fun/2022/11/20/EXAM-NOTE-C%E8%AF%AD%E8%A8%80/"/>
-    <id>https://work.pipi1002.fun/2022/11/20/EXAM-NOTE-C%E8%AF%AD%E8%A8%80/</id>
+    <link href="https://pipi1002.github.io/2022/11/20/EXAM-NOTE-C%E8%AF%AD%E8%A8%80/"/>
+    <id>https://pipi1002.github.io/2022/11/20/EXAM-NOTE-C%E8%AF%AD%E8%A8%80/</id>
     <published>2022-11-20T12:44:51.000Z</published>
     <updated>2023-06-26T10:55:05.875Z</updated>
     
@@ -164,15 +164,15 @@
     
     
     
-    <category term="C语言基础笔记" scheme="https://work.pipi1002.fun/categories/C%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0/"/>
+    <category term="C语言基础笔记" scheme="https://pipi1002.github.io/categories/C%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0/"/>
     
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="https://work.pipi1002.fun/2022/11/20/hello-world/"/>
-    <id>https://work.pipi1002.fun/2022/11/20/hello-world/</id>
+    <link href="https://pipi1002.github.io/2022/11/20/hello-world/"/>
+    <id>https://pipi1002.github.io/2022/11/20/hello-world/</id>
     <published>2022-11-20T11:41:33.417Z</published>
     <updated>2023-02-23T02:45:51.818Z</updated>
     
@@ -186,15 +186,15 @@
     
     
     
-    <category term="读书笔记" scheme="https://work.pipi1002.fun/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    <category term="读书笔记" scheme="https://pipi1002.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
     
   </entry>
   
   <entry>
     <title>HTML</title>
-    <link href="https://work.pipi1002.fun/2022/11/16/HTML/"/>
-    <id>https://work.pipi1002.fun/2022/11/16/HTML/</id>
+    <link href="https://pipi1002.github.io/2022/11/16/HTML/"/>
+    <id>https://pipi1002.github.io/2022/11/16/HTML/</id>
     <published>2022-11-16T13:26:33.000Z</published>
     <updated>2023-01-02T04:31:40.116Z</updated>
     
@@ -209,15 +209,15 @@
     
     
     
-    <category term="Html前端笔记" scheme="https://work.pipi1002.fun/categories/Html%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+    <category term="Html前端笔记" scheme="https://pipi1002.github.io/categories/Html%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
     
   </entry>
   
   <entry>
     <title>页面homework</title>
-    <link href="https://work.pipi1002.fun/2022/11/16/%E9%A1%B5%E9%9D%A2homework/"/>
-    <id>https://work.pipi1002.fun/2022/11/16/%E9%A1%B5%E9%9D%A2homework/</id>
+    <link href="https://pipi1002.github.io/2022/11/16/%E9%A1%B5%E9%9D%A2homework/"/>
+    <id>https://pipi1002.github.io/2022/11/16/%E9%A1%B5%E9%9D%A2homework/</id>
     <published>2022-11-16T13:26:19.000Z</published>
     <updated>2023-01-02T04:32:01.265Z</updated>
     
@@ -234,15 +234,15 @@
     
     
     
-    <category term="Html前端笔记" scheme="https://work.pipi1002.fun/categories/Html%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+    <category term="Html前端笔记" scheme="https://pipi1002.github.io/categories/Html%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
     
   </entry>
   
   <entry>
     <title>CSS样式</title>
-    <link href="https://work.pipi1002.fun/2022/11/16/CSS%E6%A0%B7%E5%BC%8F/"/>
-    <id>https://work.pipi1002.fun/2022/11/16/CSS%E6%A0%B7%E5%BC%8F/</id>
+    <link href="https://pipi1002.github.io/2022/11/16/CSS%E6%A0%B7%E5%BC%8F/"/>
+    <id>https://pipi1002.github.io/2022/11/16/CSS%E6%A0%B7%E5%BC%8F/</id>
     <published>2022-11-16T13:25:29.000Z</published>
     <updated>2023-01-02T04:33:19.717Z</updated>
     
@@ -257,15 +257,15 @@
     
     
     
-    <category term="Html前端笔记" scheme="https://work.pipi1002.fun/categories/Html%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
+    <category term="Html前端笔记" scheme="https://pipi1002.github.io/categories/Html%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/"/>
     
     
   </entry>
   
   <entry>
     <title>C-CProject</title>
-    <link href="https://work.pipi1002.fun/2022/11/16/C-C/"/>
-    <id>https://work.pipi1002.fun/2022/11/16/C-C/</id>
+    <link href="https://pipi1002.github.io/2022/11/16/C-C/"/>
+    <id>https://pipi1002.github.io/2022/11/16/C-C/</id>
     <published>2022-11-16T13:25:12.000Z</published>
     <updated>2023-01-05T05:10:04.989Z</updated>
     
@@ -279,15 +279,15 @@
     
     
     
-    <category term="C语言基础笔记" scheme="https://work.pipi1002.fun/categories/C%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0/"/>
+    <category term="C语言基础笔记" scheme="https://pipi1002.github.io/categories/C%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0/"/>
     
     
   </entry>
   
   <entry>
     <title>C-Ctext</title>
-    <link href="https://work.pipi1002.fun/2022/11/16/C-Ctext/"/>
-    <id>https://work.pipi1002.fun/2022/11/16/C-Ctext/</id>
+    <link href="https://pipi1002.github.io/2022/11/16/C-Ctext/"/>
+    <id>https://pipi1002.github.io/2022/11/16/C-Ctext/</id>
     <published>2022-11-16T13:25:12.000Z</published>
     <updated>2023-09-21T09:57:47.911Z</updated>
     
@@ -301,7 +301,7 @@
     
     
     
-    <category term="C语言基础笔记" scheme="https://work.pipi1002.fun/categories/C%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0/"/>
+    <category term="C语言基础笔记" scheme="https://pipi1002.github.io/categories/C%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0/"/>
     
     
   </entry>
