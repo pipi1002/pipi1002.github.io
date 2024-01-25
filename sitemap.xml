@@ -13,7 +13,7 @@
   <url>
     <loc>https://pipi1002.github.io/2023/07/17/MatlabClass/</loc>
     
-    <lastmod>2024-01-19</lastmod>
+    <lastmod>2024-01-25</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -192,6 +192,13 @@
   
   <url>
     <loc>https://pipi1002.github.io/categories/Html%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2024-01-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pipi1002.github.io/categories/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2024-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
