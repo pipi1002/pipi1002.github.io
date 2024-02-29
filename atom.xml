@@ -6,7 +6,7 @@
   <link href="https://pipi1002.github.io/atom.xml" rel="self"/>
   
   <link href="https://pipi1002.github.io/"/>
-  <updated>2024-02-29T11:19:24.212Z</updated>
+  <updated>2024-02-29T11:27:38.227Z</updated>
   <id>https://pipi1002.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://pipi1002.github.io/2024/02/29/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1%E7%AE%97%E6%B3%953/"/>
     <id>https://pipi1002.github.io/2024/02/29/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1%E7%AE%97%E6%B3%953/</id>
     <published>2024-02-29T09:43:13.000Z</published>
-    <updated>2024-02-29T11:19:24.212Z</updated>
+    <updated>2024-02-29T11:27:38.227Z</updated>
     
     <content type="html"><![CDATA[<h1 id="数据降维处理的算法">数据降维处理的算法：</h1><h1id="主成分分析法所有主成分的数量指标数量各主成分的累计方差贡献率80或特征根1">主成分分析法(所有主成分的数量=指标数量,各主成分的累计方差贡献率&gt;80%,或特征根&gt;1)</h1><h6id="例题1.1有31个样本每个样本有8个变量">例题1.1有31个样本，每个样本有8个变量</h6><p><imgsrc="https://cdn.jsdelivr.net/gh/pipi1002/markdown_pic@main/202402291812536.png" /></p><h5id="要从原来的所有变量得到新的综合变量一种较为简单的方法是作线性变换使得新的综合变量为原变量的线性组合">要从原来的所有变量得到新的综合变量，一种较为简单的方法是作线性变换，使得新的综合变量为原变量的线性组合</h5><p><span class="math display">\[\left \{ \begin{array}{lr**}F_1=a_{11}x_1+a_{21}x_2+...+a_{p1}x_p\\F_2=a_{12}x_1+a_{21}x_2+...+a_{p2}x_p\\...\\F_p=a_{1p}x_1+a_{2p}x_2+...+a_{pp}x_p\\\end{array} \right.\\F_i=a_{1i}x_1+a_{2i}x_2+...+a_{pi}x_p\quad i=1,2,...p\\\]</span></p><ul><li>（var()为求方差的意思）var(cF_1)=c^2var(f_1),c为常数</li><li>为使得方差var(F_i)可以比较<spanclass="math inline">\(a_{i1}^2+a_{i2}^2+a_{ip}^2=1\)</span></li><li>要求原始变量有一定相关性</li><li>要求各个综合变量之间互不相关，即协方差为0</li></ul><p><imgsrc="https://cdn.jsdelivr.net/gh/pipi1002/markdown_pic@main/202402291832101.png" /></p>]]></content>
     
