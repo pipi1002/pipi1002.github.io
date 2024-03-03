@@ -6,7 +6,7 @@
   <link href="https://pipi1002.github.io/atom.xml" rel="self"/>
   
   <link href="https://pipi1002.github.io/"/>
-  <updated>2024-03-03T05:54:40.810Z</updated>
+  <updated>2024-03-03T09:22:52.462Z</updated>
   <id>https://pipi1002.github.io/</id>
   
   <author>
@@ -21,15 +21,18 @@
     <link href="https://pipi1002.github.io/2024/03/03/AssemblyLanguage/"/>
     <id>https://pipi1002.github.io/2024/03/03/AssemblyLanguage/</id>
     <published>2024-03-03T05:28:02.000Z</published>
-    <updated>2024-03-03T05:54:40.810Z</updated>
+    <updated>2024-03-03T09:22:52.462Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="汇编语言">汇编语言</h1>]]></content>
+    <content type="html"><![CDATA[<h1id="汇编语言----直接在硬件之上工作的编程语言">汇编语言----直接在硬件之上工作的编程语言</h1><h2 id="汇编指令机器码的助记符">汇编指令(机器码的助记符)</h2><h3id="cpu对存储器的读写逻辑上划分为">cpu对存储器的读写逻辑上划分为：</h3><ul><li><p>地址总线：地址总线上能传送多少个不同的信息，cpu就可以对多少个存储单元进行寻址。一个cpu有N根地址总线，则可以说这个cpu的地址总线的宽度为N，这样的cpu最多可以寻找2的N次方个内存单元(8086/8088cpu的cpu地址总线宽度为20位，寻址能力为<spanclass="math inline">\(2^{20}=1024*1024字节=1024K字节=1M字节\)</span>)(8086/80286--16位，80386--32位)</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">寻址能力的判断:</span><br><span class="line">寻址能力=2的N次方(N为地址总线的条数)</span><br><span class="line">32位地址总线为例子，cpu的寻址能力2^32Bit=4G</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">bit单位间的换算关系:</span><br><span class="line">1字节=1byte=1B=8位</span><br><span class="line">1KB=1024B</span><br><span class="line">1MB=1024KB</span><br><span class="line">1GB=1024MB</span><br><span class="line"></span><br><span class="line">1TB=1024GB</span><br><span class="line">1PB=1024TB</span><br></pre></td></tr></table></figure></li><li><p>数据总线：cpu和内存或其他器件之间的数据传送是通过数据总线来进行的，数据总线的宽度决定了cpu和外界的数据传送速度</p></li><li><p>控制总线：cpu对外部器件的控制是通过控制总线来进行的。在这里控制总线是个总称，控制总线是一些不同控制线的集合。有多少根控制总线，就意味着cpu提供了对外部器件的多少种控制</p><p><imgsrc="https://cdn.jsdelivr.net/gh/pipi1002/markdown_pic@main/202403031644702.png" /></p></li></ul><h3 id="原码反码补码">原码，反码，补码：</h3><ul><li><p>原码：最高位(符号位0为正，1为负)+低位(数值)</p></li><li><p>反码：分正反</p></li><li><p>补码：分正反</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">用8位表示7的原码: 00000111</span><br><span class="line">-7:10000111</span><br><span class="line">用8位表示7的反码:</span><br><span class="line">1.对于正数来讲反码和原码是一样的 00000111</span><br><span class="line">2.对于负数来讲除最高位以外,其余位进行取反 -7:11111000</span><br><span class="line">用8位表示7的补码:</span><br><span class="line">1.对于正数来讲补码和原码是一样的 00000111</span><br><span class="line">2.对于负数来讲补码等于反码加1 11111000+1-&gt;11111001</span><br></pre></td></tr></table></figure></li></ul><h3 id="寄存器16位寄存器组">寄存器(16位寄存器组):</h3><ul><li>8个通用寄存器<ul><li>累加器AX：算数运算的主要寄存器</li><li>基址寄存器BX：存放地址的偏移地址</li><li>计数寄存器CX：作为循环和串操作等指令中的计数器，存放循环次数或重复次数</li><li>数据寄存器DX：常用来存放双字长数据的高16位，或在间接寻址的I/O指令中存放I/O端口地址</li><li>堆栈指针寄存器SP：用以指出在堆栈段中当前栈顶的地址</li><li>基址指针寄存器：指出要处理的数据在堆栈段中的基地址</li></ul></li><li>段寄存器<ul><li>代码段寄存器CS：用于存放当前正在运行的程序。存放当前执行程序所在段的段地址，<strong>将其内容左移4位再加上IP指针的内容即为下一条执行指令的地址。</strong></li><li>堆栈段寄存器SS：是内存中开辟的专用存储区，<strong>用来暂时保存寄存器中的数据</strong>。存放当前堆栈段的段地址，将其内容左移4位再加上SP的内容即为<strong>栈顶地址</strong></li><li>数据段寄存器DS：<strong>存放当前数据段的段地址</strong>，将其内容左移4为再加上计算所得的偏移地址即为对数据段指定单元进行读/写的地址。</li><li>附加数据段寄存器ES：是附加的数据，在串操作指令中用于存放目的操作数</li></ul></li></ul><h3 id="八位标志寄存器信息如下">八位标志寄存器信息如下</h3><p><imgsrc="https://cdn.jsdelivr.net/gh/pipi1002/markdown_pic@main/202403031712787.png" /></p><h2 id="伪指令由编译器执行">伪指令(由编译器执行)</h2><h2 id="其他符号由编译器识别">其他符号(由编译器识别)</h2>]]></content>
     
     
       
       
-    <summary type="html">&lt;h1 id=&quot;汇编语言&quot;&gt;汇编语言&lt;/h1&gt;
-</summary>
+    <summary type="html">&lt;h1
+id=&quot;汇编语言----直接在硬件之上工作的编程语言&quot;&gt;汇编语言----直接在硬件之上工作的编程语言&lt;/h1&gt;
+&lt;h2 id=&quot;汇编指令机器码的助记符&quot;&gt;汇编指令(机器码的助记符)&lt;/h2&gt;
+&lt;h3
+id=&quot;cpu对存储器的读写逻辑上划分为&quot;&gt;cpu对存储器的读写</summary>
       
     
     
